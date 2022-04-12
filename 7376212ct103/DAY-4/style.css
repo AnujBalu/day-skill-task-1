@@ -1,0 +1,248 @@
+.navbar ul li {
+    display: inline;
+    float: right;
+    margin: 10px 50px 10px 10px;
+    transition: 1s;
+}
+
+.navbar ul {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.navbar ul li:hover {
+    transition: 2s;
+    border-radius: 10px;
+    animation: bb1 5s linear infinite alternate;
+}
+
+@keyframes bb1 {
+    0% {
+        border: 1px double yellow;
+    }
+    25% {
+        border: 3px double chartreuse;
+    }
+    50% {
+        border: 3px double aqua;
+    }
+    75% {
+        border: 3px double darkorange;
+    }
+    100% {
+        border: 3px double aliceblue;
+    }
+}
+
+#n1 {
+    animation: b1 5s linear infinite alternate;
+}
+
+@keyframes b1 {
+    0% {
+        color: yellow;
+    }
+    25% {
+        color: chartreuse;
+    }
+    50% {
+        color: aqua;
+    }
+    75% {
+        color: darkorange;
+    }
+    100% {
+        color: aliceblue;
+    }
+}
+
+#n2 {
+    animation: b2 5s linear infinite alternate;
+}
+
+@keyframes b2 {
+    0% {
+        color: aliceblue;
+    }
+    25% {
+        color: yellow;
+    }
+    50% {
+        color: chartreuse;
+    }
+    75% {
+        color: aqua;
+    }
+    100% {
+        color: darkorange;
+    }
+}
+
+#n3 {
+    animation: b3 5s linear infinite alternate;
+}
+
+@keyframes b3 {
+    0% {
+        color: darkorange;
+    }
+    25% {
+        color: aliceblue;
+    }
+    50% {
+        color: yellow;
+    }
+    75% {
+        color: chartreuse;
+    }
+    100% {
+        color: aqua;
+    }
+}
+
+#n4 {
+    animation: b4 5s linear infinite alternate;
+}
+
+@keyframes b4 {
+    0% {
+        color: aqua;
+    }
+    25% {
+        color: darkorange;
+    }
+    50% {
+        color: aliceblue;
+    }
+    75% {
+        color: yellow;
+    }
+    100% {
+        color: chartreuse;
+    }
+}
+
+table,
+td {
+    border: 2px solid black;
+    padding: 20px;
+    margin: auto;
+}
+
+table tr td img {
+    width: 300px;
+    height: 250px;
+}
+
+#i1 {
+    transition: 3s;
+}
+
+#i1:hover {
+    transform: translateX(690px);
+    transition: 3s;
+}
+
+#i4 {
+    transition: 3s;
+}
+
+#i4:hover {
+    transform: translateX(690px);
+    tran sition: 3s;
+}
+
+#i3 {
+    transition: 3s;
+}
+
+#i3:hover {
+    transform: translateX(-690px);
+    transition: 3s;
+}
+
+#i6 {
+    transition: 3s;
+}
+
+#i6:hover {
+    transform: translateX(-690px);
+    transition: 3s;
+}
+
+#i2 {
+    transition: 3s;
+}
+
+#i2:hover {
+    transform: translateY(300px);
+    transition: 3s;
+}
+
+#i5 {
+    transition: 3s;
+}
+
+#i5:hover {
+    transform: translateY(-300px);
+    transition: 3s;
+}
+
+.motion {
+    width: 100%;
+    height: 300px;
+    animation: motion 10s linear infinite alternate;
+    background-color: aqua;
+    left: 800px;
+}
+
+@keyframes motion {
+    0% {
+        background-image: url('bg1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100%;
+        width: 100%;
+        height: 300px;
+    }
+    25% {
+        background-image: url('bg2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100%;
+        width: 100%;
+        height: 300px;
+    }
+    50% {
+        background-image: url('bg3.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100%;
+        width: 100%;
+        height: 300px;
+    }
+    75% {
+        background-image: url('bg4.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100%;
+        width: 100%;
+        height: 300px;
+    }
+    100% {
+        background-image: url('bg5.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100%;
+        width: 100%;
+        height: 300px;
+    }
+}

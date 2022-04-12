@@ -1,0 +1,149 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    background-color: black;
+    height: 40px;
+    margin: 10px 0px 25px 0px;
+}
+.navbar ul a{
+
+    align-items: center;
+    justify-content: end;
+    font-size: 30px;
+    color: white;
+    
+}
+.navbar ul{
+    display: inline;
+}
+.navbar ul a:hover{
+    background-color: whitesmoke;
+    border: 2px solid white;
+    color:black;
+}
+.con{
+    background-image: url('d21.jpg');
+    width: 90%;
+    margin: 0px 100px 5px 100px;
+    border:5px double black;
+    position: relative;
+}
+.con ul{
+    display: inline;
+}
+.con ul p{
+    border: 3px solid black;
+    width: 25%;
+    margin: auto;
+    padding: 30px;
+    color: red;
+    background-color: aqua;
+    animation: box 10s linear infinite alternate;
+}
+.con ul #sc{
+    border: 3px solid black;
+    width: 25%;
+    margin: auto;
+    padding: 30px;
+    color: red;
+    background-color:darkgray;
+    animation: box1 10s linear infinite alternate;
+}
+@keyframes box{
+    from{
+        transform: translateX(400px);
+    }
+    to{
+        transform: translateX(-400px);
+    }
+}
+@keyframes box1{
+    from{
+        transform: translateX(-400px);
+    }
+    to{
+        transform: translateX(400px);
+    }
+}
+.con ul p:hover{
+    background-color: black;
+    border: 3px double white;
+    color: white;
+}
+.con ul #sc:hover{
+    background-color: black;
+    border: 3px double white;
+    color: white;
+}
+.anim{
+    width: 400px;
+    height: 400px;
+    background-image: url('d22.png');
+    margin: auto;
+    animation: anime 3s linear infinite alternate;
+    transform-origin: top;
+    background-repeat: no-repeat;
+
+}
+@keyframes anime{
+    from{
+        transform:rotateZ(-40deg);
+    }
+    to{
+        transform: rotateZ(40deg);
+    }
+}
+table{
+    margin: auto;
+    border: 4px double black;
+    background-color: aquamarine;
+    font-size: 20px;
+}
+th, td{
+    border: 2px solid black;
+    margin: auto;
+}
+th{
+    background-color: orangered;
+}
+
+#logo{
+    width: 60%;
+    height: 200px;
+    margin: 0px 300px 10px 300px;
+}
+
+.content{
+    text-decoration: none;
+}
+.content h2 {
+    text-decoration: none;
+    font-size: 34px;
+    font-family:'Times New Roman', Times, serif ;
+    margin: 10px 0px 20px 100px;
+}
+.content a h2{
+    text-decoration: none;
+    color: red;
+}
+.content p{
+    font-size: 24px;
+    width: 80%;
+    margin: auto;
+    padding: auto;
+    text-align: justify;
+}
+.content ul li {
+    font-size: 24px;
+    width: 80%;
+    margin: auto;
+    padding: auto;
+    text-align: justify;
+}
+#tab{
+    margin:10px 43% 10px 43%;
+}

@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>
+            frame 3
+        </title>
+        <style>
+            .ff{
+                display: flexbox;
+                background-color: black;
+                width: 150px;
+                height: 200px;
+                margin: auto;
+                border-radius: 30px;
+                opacity: 0.8;
+            }
+            .ff form input{
+                width: 100px;
+                margin: 20px 15% 20px 15%;
+                border: 2PX double white;
+                border-radius: 10px;
+            }
+            #but{
+                margin: 20px 15% 20px 15%;
+                background-color:grey;
+                transition: 2s;
+
+            }
+            #but:hover{
+                border: 3px double red;
+                width: 150px;
+                transform: translateX(-25px);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="ff">
+        <form>
+            <input type="text" name="name" placeholder="NAME"><br>
+            <input type="email" name="email" placeholder="E-MAIL"><br>
+            <input type="password" name="password" placeholder="PASSWORD"><br>
+            <input id="but" type="submit" name="button">
+        </form>
+    </div>
+    </body>
+</html>

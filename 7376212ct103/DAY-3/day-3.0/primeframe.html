@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>
+        amazon
+    </title>
+    <style>
+        #d2:hover{
+            background-color: black;
+        }
+        #d2{
+            animation: box 3s linear infinite alternate;
+        }
+        @keyframes box{
+            0%{
+                background-color: chartreuse;
+            }
+            25%{
+                background-color: aqua;
+            }
+            50%{
+                background-color: crimson;
+            }
+            75%{
+                background-color: blue;
+            }
+            100%{
+                background-color: burlywood;
+            }
+
+        }
+        #d1{
+            background-image:url('main_background.webp');
+        }
+    </style>
+</head>
+<frameset rows="20%,50%">
+    <frame id="d1" src="frame1.html"/>
+    <frame id="d2" src="frame2.html"/>
+</frameset>
+
+</html>
